@@ -44,7 +44,7 @@ The file path, URL, or buffer for the image you wish to asciify. Currently suppo
 
 *Default: ' .,:;i1tfLCG08@'*
 
-A string or array of strings containing the characters to use as pixels in order of lightest to darkest.
+A string or array of strings containing the characters to use as pixels in order of darkest to lightest.
 
 ##### Note about CLI tool
 

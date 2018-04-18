@@ -24,7 +24,7 @@ if (argv.help || argv['?']) {
   console.log('');
   console.log('  Options:');
   console.log('');
-  console.log('    -a, --chars       string of characters to use as pixels (in order of light to dark)');
+  console.log('    -a, --chars       string of characters to use as pixels (in order of dark to light)');
   console.log('    -A, --chars-array the same as above however the string will be parsed as JSON making it possible to pass an array of characters');
   console.log('    -c, --color       true for color, false for B/W');
   console.log('    -r, --c-ratio     character width-height ratio');
