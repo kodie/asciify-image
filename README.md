@@ -40,6 +40,20 @@ The file path, URL, or buffer for the image you wish to asciify. Currently suppo
 * PNG
 * GIF
 
+#### options.chars
+
+*Default: ' .,:;i1tfLCG08@'*
+
+A string or array of strings containing the characters to use as pixels in order of lightest to darkest.
+
+##### Note about CLI tool
+
+In order to pass an array as an argument when using the CLI tool, use the `--chars-array` or `-A` option and pass a string to be parsed as JSON. For example:
+
+```shell
+$ asciify lolwut.png -A '[" ", ".", ",", ":", ";"]'
+```
+
 #### options.color
 
 *Default: true*
